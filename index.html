@@ -1,248 +1,459 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP — Portfolio of Sanaba Kanté
-	html5up.net | @ajlkn — CCA 3.0 license
--->
-<html>
-	<head>
-		<title>Sanaba Kanté — Data Analyst Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="Portfolio of Sanaba Kanté — Data Analytics Student. Projects in Python, Machine Learning, SQL, Excel, Power BI." />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sanaba Kanté — Data Analyst Portfolio</title>
+<meta name="description" content="Portfolio of Sanaba Kanté — Data Analytics Student. Projects in Python, Machine Learning, SQL, Excel, Power BI." />
 
-		<div id="wrapper" class="fade-in">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-			<!-- ===== INTRO / HERO ===== -->
-			<div id="intro">
-				<h1>Sanaba Kanté</h1>
-				<p>
-					Data Analytics Student · Python · SQL · Power BI · Excel<br>
-					Transforming raw data into clear, actionable decisions.<br>
-			
-					<strong>Open to internships &amp; opportunities.</strong>
-				</p>
-				<ul class="actions">
-					<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">View My Work</a></li>
-				</ul>
-			</div>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
 
-			<!-- ===== HEADER ===== -->
-			<header id="header">
-				<a href="index.html" class="logo">Sanaba Kanté</a>
-			</header>
+<div class="bg-glow bg-glow--teal" aria-hidden="true"></div>
+<div class="bg-glow bg-glow--gold" aria-hidden="true"></div>
 
-			<!-- ===== NAV ===== -->
-			<nav id="nav">
-				<ul class="links">
-					<li class="active"><a href="index.html">Projects</a></li>
-					<li><a href="generic.html">About Me</a></li>
-				</ul>
-				<ul class="icons">
-					<li><a href="https://linkedin.com/in/sanaba-kanté-70906830b" target="_blank" rel="noopener" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					<li><a href="https://github.com/mo2kk4ry" target="_blank" rel="noopener" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="https://mavenshowcase.com/profile/e8216360-4081-70b4-e13e-3fd084735492" target="_blank" rel="noopener" class="icon solid fa-chart-bar"><span class="label">Maven</span></a></li>
-				</ul>
-			</nav>
+<!-- ===== HEADER / NAV ===== -->
+<header class="site-header" id="siteHeader">
+  <a href="#home" class="brand">
+    <span class="brand-mark">SK</span>
+    <span class="brand-name">Sanaba<br>Kanté</span>
+  </a>
 
-			<!-- ===== MAIN ===== -->
-			<div id="main">
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
 
-				<!-- ——— FEATURED: Customer Complaints Dashboard ——— -->
-				<article class="post featured">
-					<header class="major">
-						<span class="date">Interactive Dashboard · Excel</span>
-						<h2>
-							<a href="https://github.com/mo2kk4ry/-Customer-Complaints-in-Banking-Data-Analysis-Interactive-Dashboard" target="_blank" rel="noopener">
-								Customer Complaints<br />in US Banking
-							</a>
-						</h2>
-						<p>
-							Analyzed customer complaints in the American banking sector using Excel.
-							Focused on complaint trends, response times, and company resolution rates,
-							presented through a fully interactive dashboard.<br />
-							<strong>Tools:</strong> Excel · Pivot Tables · Charts · Interactive Dashboard
-						</p>
-					</header>
-					<a href="https://github.com/mo2kk4ry/-Customer-Complaints-in-Banking-Data-Analysis-Interactive-Dashboard" target="_blank" rel="noopener" class="image main">
-						<img src="dash.jpg" alt="Customer Complaints in US Banking Dashboard" />
-					</a>
-					<ul class="actions special">
-						<li><a href="https://github.com/mo2kk4ry/-Customer-Complaints-in-Banking-Data-Analysis-Interactive-Dashboard" target="_blank" rel="noopener" class="button large">View on GitHub</a></li>
-						
-					</ul>
-				</article>
+  <nav class="nav-panel" id="navPanel">
+    <ul class="nav-links">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#certifications" class="nav-link">Certifications</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <ul class="nav-socials">
+      <li><a href="https://linkedin.com/in/sanaba-kanté-70906830b" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://github.com/mo2kk4ry" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://mavenshowcase.com/profile/e8216360-4081-70b4-e13e-3fd084735492" target="_blank" rel="noopener">Maven</a></li>
+    </ul>
+  </nav>
+</header>
 
-				<!-- ——— PROJECT GRID ——— -->
-				<section class="posts">
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="reveal">
+    <p class="eyebrow">Data Analytics Student · Open to Opportunities</p>
+    <h1 class="hero-title">
+      Hi there! <span class="wave">👋</span><br>
+      I'M <span class="grad-text">SANABA</span><br>
+      <span class="grad-text">KANTÉ</span>
+    </h1>
+    <p class="hero-sub">Data Analytics Student · Python · SQL · Power BI · Excel<br>Transforming raw data into clear, actionable decisions.</p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">View My Work</a>
+      <a href="Sanaba_Kante_Resume.pdf" class="btn btn-ghost" download>Download CV</a>
+    </div>
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+</section>
 
-					<!-- Project: Vehicle Theft Analysis -->
-					<article>
-						<header>
-							<span class="date">Data Analysis · SQL · Tableau</span>
-							<h2>
-								<a href="https://github.com/mo2kk4ry/Vehicle-Theft-Analysis" target="_blank" rel="noopener">
-									Vehicle Theft Analysis<br />New Zealand
-								</a>
-							</h2>
-						</header>
-						<a href="https://github.com/mo2kk4ry/Vehicle-Theft-Analysis" target="_blank" rel="noopener" class="image fit">
-							<img src="images/pic02.jpg" alt="Vehicle Theft Analysis New Zealand" />
-						</a>
-						<p>
-							Explored seven months of stolen vehicle data from the New Zealand police
-							department's Vehicle of Interest database. Identified theft patterns and
-							delivered actionable insights for law enforcement decision-making.<br />
-							<strong>Tools:</strong> MySQL · Tableau · Exploratory Data Analysis
-						</p>
-						<ul class="actions special">
-							<li><a href="https://github.com/mo2kk4ry/Vehicle-Theft-Analysis" target="_blank" rel="noopener" class="button">View on GitHub</a></li>
-						</ul>
-					</article>
+<!-- ===== ABOUT ===== -->
+<section class="section" id="about">
+  <div class="section-inner">
+    <p class="eyebrow">Introduction</p>
+    <h2 class="section-title reveal">Know Who I Am.</h2>
 
-					<!-- Project: House Price Prediction -->
-					<article>
-						<header>
-							<span class="date">Machine Learning · Python</span>
-							<h2>
-								<a href="https://github.com/mo2kk4ry/house-price-prediction" target="_blank" rel="noopener">
-									House Price<br />Prediction Model
-								</a>
-							</h2>
-						</header>
-						<a href="https://github.com/mo2kk4ry/house-price-prediction" target="_blank" rel="noopener" class="image fit">
-							<img src="images/pic03.jpg" alt="House Price Prediction Model" />
-						</a>
-						<p>
-							Built a supervised machine learning model to predict housing prices based on
-							features such as area, number of rooms, and location. Conducted under mentor
-							guidance as part of applied machine learning training.<br />
-							<strong>Tools:</strong> Python · Scikit-learn · Pandas · Jupyter Notebook
-						</p>
-						<ul class="actions special">
-							<li><a href="https://github.com/mo2kk4ry/house-price-prediction" target="_blank" rel="noopener" class="button">View on GitHub</a></li>
-						</ul>
-					</article>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+          Data Analytics student with a background in Computer and Information Technology Administration,
+          focused on building decision-oriented analytical solutions, modernizing reporting systems, and
+          improving data quality. Recently completed a part-time role as IT and Analytics Support Assistant
+          at CCNB (remote), contributing to data analysis, structuring, and visualization in
+          compliance-driven environments.
+        </p>
+        <p>
+          Recognized for strong analytical rigor, autonomy, and fast learning ability, with a particular
+          interest in interactive and automated Business Intelligence solutions. Currently based in
+          Bathurst, New Brunswick — graduating from CCNB's Data Analysis diploma in April.
+        </p>
+        <p class="tools-line"><strong>Tools:</strong> Power BI (Power Query, DAX) · SQL · Advanced Excel · Python (Pandas, Scikit-learn) · Tableau · Microsoft 365</p>
+      </div>
 
-					<!-- Project: Loan Approval Prediction -->
-					<article>
-						<header>
-							<span class="date">Machine Learning · Python</span>
-							<h2>
-								<a href="https://github.com/mo2kk4ry/Loan-Approval-Prediction-Model" target="_blank" rel="noopener">
-									Loan Approval<br />Prediction Model
-								</a>
-							</h2>
-						</header>
-						<a href="https://github.com/mo2kk4ry/Loan-Approval-Prediction-Model" target="_blank" rel="noopener" class="image fit">
-							<img src="images/pic04.jpg" alt="Loan Approval Prediction Model" />
-						</a>
-						<p>
-							Developed a classification model to predict whether a loan application will
-							be approved, based on applicant data such as income, employment status,
-							and credit history.<br />
-							<strong>Tools:</strong> Python · Scikit-learn · Pandas · Classification
-						</p>
-						<ul class="actions special">
-							<li><a href="https://github.com/mo2kk4ry/Loan-Approval-Prediction-Model" target="_blank" rel="noopener" class="button">View on GitHub</a></li>
-						</ul>
-					</article>
+      <div class="about-cards reveal">
+        <div class="mini-card">
+          <div class="mini-icon">📊</div>
+          <p>BI Solution Design</p>
+        </div>
+        <div class="mini-card">
+          <div class="mini-icon">🧹</div>
+          <p>Data Cleaning &amp; ETL</p>
+        </div>
+        <div class="mini-card">
+          <div class="mini-icon">📈</div>
+          <p>Power BI Dashboards</p>
+        </div>
+        <div class="mini-card">
+          <div class="mini-icon">💬</div>
+          <p>Insight Communication</p>
+        </div>
+      </div>
+    </div>
 
-					<!-- Project: Restaurant Analysis -->
-					<article>
-						<header>
-							<span class="date">Business Analysis · Data Insights</span>
-							<h2>
-								<a href="https://mavenshowcase.com/project/25439" target="_blank" rel="noopener">
-									Restaurant Menu<br />&amp; Order Analysis
-								</a>
-							</h2>
-						</header>
-						<a href="https://mavenshowcase.com/project/25439" target="_blank" rel="noopener" class="image fit">
-							<img src="Dark-Green-and-Gold-Modern-Simple-Elegant-Cafe-House-and-Eatery-Restaurant-Presentation.png" alt="Restaurant Menu and Order Analysis" />
-						</a>
-						<p>
-							Comprehensive analysis of a restaurant's menu and order data to uncover
-							customer behavior trends. Evaluated menu performance, pricing impact, and
-							ordering patterns by day to deliver actionable recommendations for revenue
-							growth and operational efficiency.<br />
-							<strong>Tools:</strong> Excel · Data Analysis · Business Insights
-						</p>
-						<ul class="actions special">
-							<li><a href="https://mavenshowcase.com/project/25439" target="_blank" rel="noopener" class="button">View Project</a></li>
-						</ul>
-					</article>
+    <!-- SKILLS -->
+    <div class="skills-block reveal">
+      <p class="eyebrow">Toolkit</p>
+      <h3 class="section-subtitle">Skills &amp; Tools.</h3>
+      <div class="badge-grid">
+        <div class="badge"><span>Python</span></div>
+        <div class="badge"><span>SQL</span></div>
+        <div class="badge"><span>Power BI</span></div>
+        <div class="badge"><span>Excel</span></div>
+        <div class="badge"><span>Power Query</span></div>
+        <div class="badge"><span>DAX</span></div>
+        <div class="badge"><span>Pandas</span></div>
+        <div class="badge"><span>Scikit-learn</span></div>
+        <div class="badge"><span>Jupyter</span></div>
+        <div class="badge"><span>Tableau</span></div>
+        <div class="badge"><span>MySQL</span></div>
+        <div class="badge"><span>Git &amp; GitHub</span></div>
+        <div class="badge"><span>Microsoft 365</span></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-				</section>
-				<!-- /.posts -->
+<!-- ===== EXPERIENCE ===== -->
+<section class="section section--alt" id="experience">
+  <div class="section-inner">
+    <p class="eyebrow">What I Have Done So Far</p>
+    <h2 class="section-title reveal">Experience.</h2>
 
-				<!-- Pagination / More -->
-				<footer>
-					<div class="pagination">
-						<a href="https://github.com/mo2kk4ry" target="_blank" rel="noopener" class="next">More on GitHub</a>
-					</div>
-				</footer>
+    <div class="timeline">
 
-			</div>
-			<!-- /#main -->
+      <div class="timeline-item reveal">
+        <div class="timeline-node">💼</div>
+        <div class="timeline-card">
+          <h3>IT &amp; Analytics Support Assistant</h3>
+          <p class="timeline-meta">Collège communautaire du Nouveau-Brunswick (CCNB) — Bathurst, NB · Remote, Part-time</p>
+          <ul>
+            <li>Extracted and analyzed academic data from multiple sources to surface actionable insights supporting operational and compliance needs.</li>
+            <li>Designed clear Power BI visualizations to facilitate understanding across academic and administrative teams.</li>
+            <li>Led and contributed to several concurrent projects, managing priorities autonomously in a fully remote environment.</li>
+            <li>Prepared monthly internal newsletters based on analytical findings.</li>
+            <li>Contributed to institutional chatbot development: data structuring, documentation, and functional testing.</li>
+          </ul>
+          <span class="timeline-date">Oct 2025 – Mar 2026</span>
+        </div>
+      </div>
 
-			<!-- ===== FOOTER ===== -->
-			<footer id="footer">
-				<section class="split contact">
+      <div class="timeline-item reveal">
+        <div class="timeline-node">🏆</div>
+        <div class="timeline-card timeline-card--highlight">
+          <h3>Data Analyst &amp; Project Lead — Award-Winning Smart Safety Bracelet</h3>
+          <p class="timeline-meta">Cité des sciences et de l'innovation de Guinée</p>
+          <ul>
+            <li>Led development of a smart safety bracelet during a competitive hackathon, coordinating a multidisciplinary team under strict deadlines.</li>
+            <li>Translated user safety needs into measurable performance indicators and data-driven features.</li>
+            <li>Built dashboards and visualizations to track key metrics and support decision-making.</li>
+            <li>🏆 Delivered the final pitch — project awarded top recognition and selected for continued development.</li>
+          </ul>
+          <span class="timeline-date">2025</span>
+        </div>
+      </div>
 
-					<section class="alt">
-						<h3>Location</h3>
-						<p>New Brunswick, Canada</p>
-					</section>
+      <div class="timeline-item reveal">
+        <div class="timeline-node">🗂️</div>
+        <div class="timeline-card">
+          <h3>Secretary General — NGO</h3>
+          <p class="timeline-meta">Coordination &amp; Governance</p>
+          <ul>
+            <li>Coordinated day-to-day organizational operations including scheduling, correspondence, and records management.</li>
+            <li>Acted as primary liaison between internal committees and external partners.</li>
+            <li>Produced consolidated reports and official communications for leadership.</li>
+          </ul>
+          <span class="timeline-date">Feb 2025 – Aug 2025</span>
+        </div>
+      </div>
 
-					<section>
-						<h3>Email</h3>
-						<p><a href="mailto:kantesanaba78@gmail.com">kantesanaba78@gmail.com</a></p>
-					</section>
+      <div class="timeline-item reveal">
+        <div class="timeline-node">🌱</div>
+        <div class="timeline-card">
+          <h3>Project Assistant — Air Quality Monitoring Initiative</h3>
+          <p class="timeline-meta">Cité des sciences et de l'innovation de Guinée</p>
+          <ul>
+            <li>Participated in environmental data collection, monitoring, and preparation of datasets for analytical reporting.</li>
+            <li>Monitored deliverables and timelines; supported project coordination and structured internal communication.</li>
+          </ul>
+          <span class="timeline-date">Sep 2024 – Apr 2025</span>
+        </div>
+      </div>
 
-					<section>
-						<h3>Resume</h3>
-						<p><a href="Sanaba_Kante_Resume.pdf" download>📄 Download My CV</a></p>
-					</section>
+      <div class="timeline-item reveal">
+        <div class="timeline-node">🤝</div>
+        <div class="timeline-card">
+          <h3>Business &amp; IT Sector Representative <span class="tag-volunteer">Volunteer</span></h3>
+          <p class="timeline-meta">CCNB Bathurst</p>
+          <ul>
+            <li>Represent Business &amp; IT students in academic and institutional matters.</li>
+            <li>Participate in coordination meetings and communicate student needs to administration.</li>
+          </ul>
+          <span class="timeline-date">Current</span>
+        </div>
+      </div>
 
-					<section>
-						<h3>Maven Portfolio</h3>
-						<p><a href="https://mavenshowcase.com/profile/e8216360-4081-70b4-e13e-3fd084735492" target="_blank" rel="noopener">mavenshowcase.com</a></p>
-					</section>
+      <div class="timeline-item reveal">
+        <div class="timeline-node">🩸</div>
+        <div class="timeline-card">
+          <h3>Data Entry Agent (EMIS) <span class="tag-volunteer">Volunteer</span></h3>
+          <p class="timeline-meta">Canadian Red Cross</p>
+          <ul>
+            <li>Managed and maintained critical humanitarian datasets, ensuring accuracy, integrity, and timely reporting to support emergency response operations.</li>
+          </ul>
+        </div>
+      </div>
 
-					<section>
-						<h3>Social</h3>
-						<ul class="icons alt">
-							<li><a href="https://linkedin.com/in/sanaba-kanté-70906830b" target="_blank" rel="noopener" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/mo2kk4ry" target="_blank" rel="noopener" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</section>
+    </div>
+  </div>
+</section>
 
-				</section>
-			</footer>
+<!-- ===== EDUCATION ===== -->
+<section class="section" id="education">
+  <div class="section-inner">
+    <p class="eyebrow">Background</p>
+    <h2 class="section-title reveal">Education.</h2>
 
-			<!-- Copyright -->
-			<div id="copyright">
-				<ul>
-					<li>&copy; Sanaba Kanté 2025</li>
-					<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</div>
+    <div class="edu-grid reveal">
+      <div class="edu-card">
+        <span class="edu-date">2025 – Present</span>
+        <h3>Diploma in Data Analysis</h3>
+        <p class="timeline-meta">Collège communautaire du Nouveau-Brunswick (CCNB) — Bathurst, NB</p>
+        <p class="edu-detail"><strong>Coursework:</strong> Descriptive &amp; Exploratory Data Analysis · Applied Statistics · SQL &amp; Programming · Excel &amp; Python for Data Analysis · Power Query &amp; Power BI · Data Visualization</p>
+      </div>
+      <div class="edu-card">
+        <span class="edu-date">Sept. 2022 – Jul. 2025</span>
+        <h3>Computer / IT Administration &amp; Management</h3>
+        <p class="timeline-meta">University Gamal Abdel Nasser</p>
+      </div>
+      <div class="edu-card">
+        <span class="edu-date">May – Sept. 2023</span>
+        <h3>Certificate — IT &amp; Data Science</h3>
+        <p class="timeline-meta">Bountiful Technologies</p>
+      </div>
+    </div>
 
-		</div>
-		<!-- /#wrapper -->
+    <div class="languages-strip reveal">
+      <span class="eyebrow" style="margin:0;">Languages</span>
+      <div class="lang-chips">
+        <span class="lang-chip">🇫🇷 French — Native</span>
+        <span class="lang-chip">🇬🇧 English — Advanced</span>
+      </div>
+    </div>
+  </div>
+</section>
 
-		<!-- Massively Scripts (do not modify) -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
+<!-- ===== PROJECTS ===== -->
+<section class="section section--alt" id="projects">
+  <div class="section-inner">
+    <p class="eyebrow">My Recent Work</p>
+    <h2 class="section-title reveal">Projects.</h2>
+    <p class="section-lead reveal">A few recent projects, with links to the code and live dashboards where available.</p>
 
-	</body>
+    <div class="project-featured reveal">
+      <a class="project-media" href="https://github.com/mo2kk4ry/-Customer-Complaints-in-Banking-Data-Analysis-Interactive-Dashboard" target="_blank" rel="noopener">
+        <img src="images/dash.jpg" alt="Customer Complaints in US Banking Dashboard" />
+        <span class="project-link-btn" aria-hidden="true">↗</span>
+      </a>
+      <div class="project-info">
+        <span class="timeline-meta">Interactive Dashboard · Excel</span>
+        <h3>Customer Complaints in US Banking</h3>
+        <p>Analyzed customer complaints in the American banking sector using Excel. Focused on complaint trends, response times, and company resolution rates, presented through a fully interactive dashboard.</p>
+        <div class="tag-row">
+          <span class="tag tag--teal">#Excel</span>
+          <span class="tag tag--gold">#PivotTables</span>
+          <span class="tag tag--teal">#InteractiveDashboard</span>
+        </div>
+        <a href="https://github.com/mo2kk4ry/-Customer-Complaints-in-Banking-Data-Analysis-Interactive-Dashboard" target="_blank" rel="noopener" class="btn btn-ghost">View on GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-grid">
+
+      <div class="project-card reveal">
+        <a class="project-media" href="https://github.com/mo2kk4ry/Vehicle-Theft-Analysis" target="_blank" rel="noopener">
+          <img src="images/pic02.jpg" alt="Vehicle Theft Analysis New Zealand" />
+          <span class="project-link-btn" aria-hidden="true">↗</span>
+        </a>
+        <span class="timeline-meta">Data Analysis · SQL · Tableau</span>
+        <h3>Vehicle Theft Analysis — New Zealand</h3>
+        <p>Explored seven months of stolen vehicle data from the NZ police Vehicle of Interest database. Identified theft patterns and delivered actionable insights for law enforcement.</p>
+        <div class="tag-row">
+          <span class="tag tag--teal">#MySQL</span>
+          <span class="tag tag--gold">#Tableau</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <a class="project-media" href="https://github.com/mo2kk4ry/house-price-prediction" target="_blank" rel="noopener">
+          <img src="images/pic03.jpg" alt="House Price Prediction Model" />
+          <span class="project-link-btn" aria-hidden="true">↗</span>
+        </a>
+        <span class="timeline-meta">Machine Learning · Python</span>
+        <h3>House Price Prediction Model</h3>
+        <p>Built a supervised machine learning model to predict housing prices based on area, number of rooms, and location, under mentor guidance.</p>
+        <div class="tag-row">
+          <span class="tag tag--teal">#Python</span>
+          <span class="tag tag--gold">#Scikit-learn</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <a class="project-media" href="https://github.com/mo2kk4ry/Loan-Approval-Prediction-Model" target="_blank" rel="noopener">
+          <img src="images/pic04.jpg" alt="Loan Approval Prediction Model" />
+          <span class="project-link-btn" aria-hidden="true">↗</span>
+        </a>
+        <span class="timeline-meta">Machine Learning · Python</span>
+        <h3>Loan Approval Prediction Model</h3>
+        <p>Developed a classification model to predict loan approval based on applicant income, employment status, and credit history.</p>
+        <div class="tag-row">
+          <span class="tag tag--teal">#Python</span>
+          <span class="tag tag--gold">#Classification</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <a class="project-media" href="https://mavenshowcase.com/project/25439" target="_blank" rel="noopener">
+          <img src="images/pic05.jpg" alt="Restaurant Menu and Order Analysis" />
+          <span class="project-link-btn" aria-hidden="true">↗</span>
+        </a>
+        <span class="timeline-meta">Business Analysis · Data Insights</span>
+        <h3>Restaurant Menu &amp; Order Analysis</h3>
+        <p>Analyzed a restaurant's menu and order data to uncover customer behavior, menu performance, pricing impact, and ordering patterns.</p>
+        <div class="tag-row">
+          <span class="tag tag--teal">#Excel</span>
+          <span class="tag tag--gold">#BusinessInsights</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="more-cta reveal">
+      <a href="https://github.com/mo2kk4ry" target="_blank" rel="noopener" class="btn btn-primary">More on GitHub</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CERTIFICATIONS & ACHIEVEMENTS ===== -->
+<section class="section" id="certifications">
+  <div class="section-inner">
+    <p class="eyebrow">Recognition</p>
+    <h2 class="section-title reveal">Certifications &amp; Achievements.</h2>
+
+    <div class="cert-highlight reveal">
+      <span class="cert-emoji">🏆</span>
+      <div>
+        <h3>Top Award — Smart Safety Bracelet Hackathon</h3>
+        <p>Cité des sciences et de l'innovation de Guinée · Project selected for continued development after winning top recognition from judges and stakeholders.</p>
+      </div>
+    </div>
+
+    <div class="cert-grid">
+      <div class="cert-card reveal">
+        <span class="cert-icon">🎓</span>
+        <p>Maven Analytics — Thinking Like an Analyst</p>
+      </div>
+      <div class="cert-card reveal">
+        <span class="cert-icon">🎓</span>
+        <p>Maven Analytics — Data Career Roadmap</p>
+      </div>
+      <div class="cert-card reveal">
+        <span class="cert-icon">📜</span>
+        <p>Cisco — Data Analytics (Excel, SQL, Tableau)</p>
+      </div>
+      <div class="cert-card reveal">
+        <span class="cert-icon">📜</span>
+        <p>IBM — Python &amp; SQL for Data Science</p>
+      </div>
+      <div class="cert-card reveal">
+        <span class="cert-icon">🏅</span>
+        <p>IBM &amp; Cisco — Data Analytics Badges</p>
+      </div>
+      <div class="cert-card reveal">
+        <span class="cert-icon">🎗️</span>
+        <p>Customer Service Pathways</p>
+      </div>
+    </div>
+    <p class="section-lead reveal" style="margin-top:1.5rem;"><em>Currently pursuing: Project Management Certifications</em></p>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section section--alt" id="contact">
+  <div class="section-inner">
+    <p class="eyebrow">Get In Touch</p>
+    <h2 class="section-title reveal">Contact.</h2>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="contact-item">
+          <span class="contact-label">Location</span>
+          <p>Bathurst, New Brunswick, Canada</p>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Email</span>
+          <p><a href="mailto:kantesanaba78@gmail.com">kantesanaba78@gmail.com</a></p>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Phone</span>
+          <p><a href="tel:5062322800">(506) 232-2800</a></p>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Resume</span>
+          <p><a href="Sanaba_Kante_Resume.pdf" download>Download My CV ↓</a></p>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Elsewhere</span>
+          <p>
+            <a href="https://linkedin.com/in/sanaba-kanté-70906830b" target="_blank" rel="noopener">LinkedIn</a> ·
+            <a href="https://github.com/mo2kk4ry" target="_blank" rel="noopener">GitHub</a> ·
+            <a href="https://mavenshowcase.com/profile/e8216360-4081-70b4-e13e-3fd084735492" target="_blank" rel="noopener">Maven</a>
+          </p>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" action="https://formsubmit.co/kantesanaba78@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New message from your portfolio!" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_captcha" value="false" />
+
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="What's your name?" required />
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Say hello…" required></textarea>
+
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <p>Designed &amp; built by Sanaba Kanté</p>
+  <p>&copy; <span id="year"></span> Sanaba Kanté — All rights reserved</p>
+</footer>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<script src="js/main.js"></script>
+</body>
 </html>
